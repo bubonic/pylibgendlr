@@ -1,5 +1,26 @@
 # pylibgendlr
+
 A Python Library Genesis Book Downloader with Proxy Support
+
+## Requirements
+- BeautifulSoup4 (bs4)
+- Python 2 or 3
+
+## Example
+
+To get the IDs of books for a search term with spaces use:
+
+> ./getIDslibgen.sh search+term
+
+Then run:
+
+> getlibgenpwBooks.py /home/user/path/to/id/file /home/user/download/path /home/user/path/to/proxyfile
+
+This will take all the IDs from the search term and randomly run through proxies to evade dection on their network and continuously download every book with an ID supplied.
+
+## Note
+
+This is currently out of order. Check back or donate to get it working again. 
 
 # Donations
 
